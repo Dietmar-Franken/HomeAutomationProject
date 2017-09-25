@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Home Automation</string>
+    <string name="device_name">Device Name : </string>
+    <string name="add_room">Add room</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="add_switch_board">Add Device</string>
+    <string name="add_switch">Add Switch</string>
+    <string name="deviceId">Device Id</string>
+    <string name="home">Enter Home Name</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+</resources>

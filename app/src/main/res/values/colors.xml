@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#072251</color>
+    <color name="colorPrimaryDark">#50547A</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackDesable">#80000000</color>
+    <color name="colorLine">#7f7f7f</color>
+    <color name="linecolor">#D7D7D7</color>
+    <color name="yellowcolor">#FEE003</color>
+
+    <color name="colorTnxLine">#807f7f7f</color>
+    <color name="drakgrey">#616161</color>
+    <color name="toolbarcolor"> #717171</color>
+    <color name="numbercolor">#989898</color>
+    <color name="colorEditLine">#bfbfbf</color>
+    <color name="colorWhiteLine">#80ffffff</color>
+    <color name="colorButtons">#1faeff</color>
+    <color name="colorTextBit">#1faeff</color>
+    <color name="colorDrawer">#CC1faeff</color>
+    <color name="bodercolor">#3D6B99</color>
+    <color name="colorTextForgotPin">#0645ad</color>
+    <color name="colorTextRed">#ff0000</color>
+    <color name="colorTextBlack">#e6646464</color>
+    <color name="colorProgressBg">#80000000</color>
+    <color name="Black0Percent">#00000000</color>
+    <color name="colorPending">#4682B4</color>
+    <color name="colorApproved">#00b100</color>
+    <color name="colorReject">#ff0000</color>
+    <color name="colorEditBorder">#66bfbfbf</color>
+
+    <color name="colorOptionBg">#CC1faeff</color>
+</resources>

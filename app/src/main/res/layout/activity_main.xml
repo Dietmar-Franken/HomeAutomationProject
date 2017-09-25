@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout_home_frag"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/bottomBarLinear"
+            android:layout_below="@+id/toolbar"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:id="@+id/bottomBarLinear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+    <!--    <>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Navigation View SAtart>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  -->
+
+
+    <LinearLayout
+        android:id="@+id/drawerPane"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:id="@+id/home_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height=".1dp"
+                    android:background="#CD7F32" />
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/tv_appvesion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:autoLink="web"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text=" @version: 1.0"
+            android:textColor="@android:color/holo_purple"
+            />
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

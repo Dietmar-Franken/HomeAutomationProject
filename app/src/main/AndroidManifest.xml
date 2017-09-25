@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.garima.homeautomationproject">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/homeautomationlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/homeautomationlogo"
+        android:supportsRtl="true"
+        android:theme="@style/NewTheme">
+        <activity
+            android:name=".activity.DashBoardActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/NewTheme" />
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LocationActivity" />
+        <activity
+            android:name=".activity.DeviceActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/NewTheme" />
+        <activity android:name=".activity.BulbOperationActivity" />
+        <activity android:name=".activity.SwitchActivity" />
+        <activity android:name=".activity.RoomActivity"></activity>
+    </application>
+
+</manifest>

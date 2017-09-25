@@ -1,0 +1,30 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:id="@+id/toolbar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center|left"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/backImageView"
+        android:visibility="visible"
+        android:src="@drawable/back"
+        android:foregroundGravity="center"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/toolbarTextView"
+        android:text="Add Room"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>
